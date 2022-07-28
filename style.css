@@ -1,22 +1,38 @@
+body { 
+    position: absolute;
+    text-shadow: 1px 1px;
+    font-weight: 200px;
+    font-size:smaller;
+    padding-left: 30%;
+    padding-bottom: 20%;
+    background-image: url(black.jpg);
+ 
+}
+.title{
+    color: azure;
+    font-weight: 500;
+    
+}
+
 .grid {
 
     position: absolute;
     width: 560px;
     height: 300px;
-    border:solid black 2px;
+    border:solid rgb(255, 251, 251) 2px;
     margin-top: 80px;
 }
 .block{
     position: absolute;
     width: 100px;
     height: 20px;
-    background-color:dodgerblue;
+    background-color:rgb(30, 54, 239);
 }
 .user{
     position: absolute;
     width: 100px;
     height: 20px;
-    background-color:darksalmon;
+    background-color:blueviolet;
 }
 
 .ball {
